@@ -16,7 +16,7 @@ export function Home() {
 				if (data.shouldRedirect) {
 					// Redirect to different page based on location
 					if (data.location?.country === "China") {
-						router.push("/zh");
+						router.push("/forbidden");
 					}
 				}
 			} catch (error) {

@@ -9,7 +9,6 @@ export async function GET(request: NextRequest) {
 		  request.headers.get("cf-connecting-ip") ||
 		  request.headers.get("x-client-ip") ||
 		  "unknown";
-	console.log("forwarded", forwarded);
 
 	// You can add geolocation logic here
 	const location = await getLocation(ip);
