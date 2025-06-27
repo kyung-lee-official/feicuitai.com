@@ -9,7 +9,6 @@ RUN bun i
 
 # Rebuild the source code
 FROM deps AS build
-RUN bun preload
 RUN bun run build
 
 # Production image, run NextJS
