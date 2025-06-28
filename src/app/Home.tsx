@@ -195,7 +195,7 @@ export function Home() {
 				</div>
 
 				<div className="flex justify-center w-full">
-					<div className="flex flex-col lg:flex-row items-start w-[440px] gap-3">
+					<div className="flex flex-col lg:flex-row items-start w-[440px] lg:w-[1160px] gap-3">
 						<div>
 							<p>ID:雨嫣 2368</p>
 							<img src="images/8.webp" alt="" />
@@ -331,7 +331,7 @@ export function Home() {
 					</div>
 				</div>
 				<div className="flex justify-center w-full">
-					<div className="flex flex-col lg:flex-row items-start w-[440px] gap-3">
+					<div className="flex flex-col lg:flex-row items-start w-[440px] lg:w-[1160px] gap-3">
 						<div>
 							<p>ID:雨嫣 2368</p>
 							<img src="images/8.webp" alt="" />
