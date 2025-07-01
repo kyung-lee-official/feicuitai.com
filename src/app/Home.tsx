@@ -29,7 +29,7 @@ export function Home() {
 
 	return (
 		<div className="">
-			<main className="flex flex-col gap-[32px] py-12">
+			<main className="flex flex-col lg:max-w-[680px] py-12 mx-auto gap-[32px]">
 				<p
 					className="flex justify-center w-full
 					text-5xl font-bold text-emerald-700"
@@ -45,12 +45,15 @@ export function Home() {
 				<p className="flex justify-center w-full text-lg">
 					這可能是你看過最接地氣、最實用、最誠懇的翡翠分享。
 				</p>
+				<img src="images/yi/1.jpg" alt="" />
 				<p className="flex justify-center w-full text-lg">
 					我是一位從事翡翠十多年的從業者，祖父與父親皆為翡翠業界老行家，父親至今仍親赴緬甸礦區挑石開料，三代人都在做翡翠——從原石到設計雕工，全程自己把關。
 				</p>
 				<p className="flex justify-center w-full text-lg">
 					每天都有不少人問我：「這個值不值？這塊翡翠是真A嗎？」其實買翡翠不是靠運氣，而是靠經驗和眼光。
 				</p>
+				<img src="images/yi/2.jpg" alt="" />
+				<img src="images/yi/4.jpg" alt="" />
 				<p className="flex justify-center w-full text-lg">
 					這行水很深，有人花十萬買到假貨，也有人幾千就能撿到寶。這篇文章，我不賣課、不賣夢，只想讓你了解這門看似神秘又高單價的行業背後，其實有跡可循。
 				</p>
@@ -76,7 +79,7 @@ export function Home() {
 					</div>
 				</div>
 				<div className="flex justify-center w-full">
-					<div className="lg:max-w-[1160px] max-w-[440px]">
+					<div className="lg:max-w-[680px]">
 						<img
 							src="images/4.webp"
 							alt=""
@@ -89,10 +92,10 @@ export function Home() {
 					text-white"
 				>
 					<div
-						className="flex flex-col lg:flex-row items-center lg:items-start w-[440px] lg:w-[1160px] p-6 gap-3 lg:gap-6
+						className="flex flex-col items-center lg:items-start lg:w-[680px] p-6 gap-3 lg:gap-6
 						bg-green-600"
 					>
-						<div className="max-w-[360px]">
+						<div>
 							<img src="images/5.webp" alt="" />
 						</div>
 						<div>
@@ -119,10 +122,10 @@ export function Home() {
 					text-white"
 				>
 					<div
-						className="flex flex-col lg:flex-row-reverse items-center lg:items-start w-[440px] lg:w-[1160px] p-6 gap-3 lg:gap-6
+						className="flex flex-col items-center lg:items-start lg:w-[680px] p-6 gap-3 lg:gap-6
 						bg-green-600"
 					>
-						<div className="max-w-[360px]">
+						<div>
 							<img src="images/6.webp" alt="" />
 						</div>
 						<div>
@@ -152,10 +155,10 @@ export function Home() {
 					text-white"
 				>
 					<div
-						className="flex flex-col lg:flex-row items-center lg:items-start w-[440px] lg:w-[1160px] p-6 gap-3 lg:gap-6
+						className="flex flex-col items-center lg:items-start lg:w-[680px] p-6 gap-3 lg:gap-6
 						bg-green-600"
 					>
-						<div className="max-w-[360px]">
+						<div>
 							<img src="images/7.webp" alt="" />
 						</div>
 						<div>
@@ -193,9 +196,10 @@ export function Home() {
 						</p>
 					</div>
 				</div>
+				<img src="images/yi/3.jpg" alt="" />
 
 				<div className="flex justify-center w-full">
-					<div className="flex flex-col lg:flex-row items-start w-[440px] lg:w-[1160px] gap-3">
+					<div className="flex flex-col lg:flex-row items-start lg:w-[680px] gap-3">
 						<div>
 							<p>ID:雨嫣 2368</p>
 							<img src="images/8.webp" alt="" />
@@ -207,21 +211,21 @@ export function Home() {
 					</div>
 				</div>
 
-				<div className="flex flex-col lg:grid lg:grid-cols-2 justify-center items-start lg:items-stretch lg:w-[1160px] max-w-[440px] lg:max-w-[1160px] mx-auto gap-3">
+				<div className="flex flex-col justify-center items-start lg:items-stretch lg:w-[680px] lg:max-w-[680px] mx-auto gap-3">
 					<div
 						className="flex justify-center w-full h-full
 						text-white"
 					>
 						<div
-							className="flex flex-col items-center w-[440px] lg:w-full h-full p-6 gap-3
+							className="flex flex-col items-center lg:w-full h-full p-6 gap-3
 							bg-green-600"
 						>
-							<div className="max-w-[300px]">
+							<div>
 								<img src="images/10.webp" alt="" />
 							</div>
 							<p
 								className="flex justify-center w-full
-							text-3xl font-bold"
+								text-3xl font-bold"
 							>
 								翡翠是一門講究眼緣的生意
 							</p>
@@ -234,11 +238,11 @@ export function Home() {
 						</div>
 					</div>
 					<div
-						className="flex justify-center w-full 
+						className="flex justify-center w-full
 						border-1 border-neutral-500"
 					>
-						<div className="flex flex-col items-center w-[440px] lg:w-full p-6 gap-3">
-							<div className="max-w-[360px]">
+						<div className="flex flex-col items-center lg:w-full p-6 gap-3">
+							<div>
 								<img src="images/11.webp" alt="" />
 							</div>
 							<p className="flex justify-center w-full text-lg">
@@ -259,7 +263,7 @@ export function Home() {
 				</p>
 				<div className="flex justify-center w-full">
 					<div
-						className="flex flex-col items-center w-[440px] lg:w-[1160px] p-6 gap-3
+						className="flex flex-col items-center lg:w-[680px] p-6 gap-3
 						bg-sky-200"
 					>
 						<div className="max-w-[360px]">
@@ -281,13 +285,13 @@ export function Home() {
 				</div>
 
 				<div className="flex justify-center w-full">
-					<div className="flex flex-col items-center w-[440px] lg:w-[1160px] gap-3">
+					<div className="flex flex-col items-center lg:w-[680px] gap-3">
 						<img src="images/13.webp" alt="" />
 					</div>
 				</div>
 
 				<div
-					className="flex flex-col items-center w-full py-6
+					className="flex flex-col items-center w-full p-6
 					text-white
 					bg-green-600"
 				>
@@ -297,7 +301,7 @@ export function Home() {
 					>
 						如何聯繫翡翠專業顧問？
 					</p>
-					<div className=" w-[440px] lg:w-[1160px]">
+					<div>
 						<p
 							className="flex justify-center w-full py-3
 							text-lg"
@@ -331,7 +335,7 @@ export function Home() {
 					</div>
 				</div>
 				<div className="flex justify-center w-full">
-					<div className="flex flex-col lg:flex-row items-start w-[440px] lg:w-[1160px] gap-3">
+					<div className="flex flex-col lg:flex-row items-start lg:w-[680px] gap-3">
 						<div>
 							<p>ID:雨嫣 2368</p>
 							<img src="images/8.webp" alt="" />
