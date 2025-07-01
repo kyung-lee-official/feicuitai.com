@@ -52,14 +52,48 @@ export function Home() {
 				<p className="flex justify-center w-full text-lg">
 					每天都有不少人問我：「這個值不值？這塊翡翠是真A嗎？」其實買翡翠不是靠運氣，而是靠經驗和眼光。
 				</p>
+				<div>
+					<p
+						className="flex justify-center items-center p-3
+						text-5xl text-white font-mono
+						bg-green-600"
+					>
+						自己工廠 自己加工
+					</p>
+					<p
+						className="flex justify-center items-center p-2
+						text-4xl text-green-600 font-mono"
+					>
+						每天我都會在工廠加工自己喜歡的翡翠
+					</p>
+				</div>
+				<p>
+					我大部分時間都會守在工廠等著手鐲一步步的製作出來，有時候遇到好料子也喜歡自己上手拋光自己試戴，這過程比較煎熬，同時也期待著有驚喜。
+				</p>
 				<img src="images/yi/2.jpg" alt="" />
+				<div>
+					<p
+						className="flex justify-center items-center p-3
+						text-5xl text-white font-mono
+						bg-green-600"
+					>
+						每天第一件事
+					</p>
+					<p
+						className="flex justify-center items-center p-2
+						text-4xl text-green-600 font-mono"
+					>
+						每天上午 9 點都要先巡視工廠
+					</p>
+				</div>
 				<img src="images/yi/4.jpg" alt="" />
-				<p className="flex justify-center w-full text-lg">
+				<p>
+					隨著近年翡翠走熱，市面上出現了不少以次充好、以假充真的翡翠，許多商家拿著最差的玉石充天然翡翠，價格還一路往上炒，飆升到了幾十萬甚至幾百萬的天價!把翡翠的市場搞得烏煙氣，想要買天然翡翠，出高價都不一定能買到。
+				</p>
+				<p>
 					這行水很深，有人花十萬買到假貨，也有人幾千就能撿到寶。這篇文章，我不賣課、不賣夢，只想讓你了解這門看似神秘又高單價的行業背後，其實有跡可循。
 				</p>
-				<p className="flex justify-center w-full text-lg">
-					翡翠不是暴利，只是你沒找到對的人
-				</p>
+				<p>翡翠不是暴利，只是你沒找到對的人</p>
 				<img src="images/1.webp" alt="" />
 				<img src="images/2.webp" alt="" className="w-full h-auto" />
 
@@ -196,6 +230,27 @@ export function Home() {
 						</p>
 					</div>
 				</div>
+				<div>
+					<p
+						className="flex justify-center items-center p-3
+						text-5xl text-white font-mono
+						bg-green-600"
+					>
+						我們每天都會直播
+					</p>
+					<p
+						className="flex justify-center items-center p-2
+						text-3xl text-green-600 font-mono"
+					>
+						礦區剛挖出的好料我會成本價拿來給大家直播競標
+					</p>
+				</div>
+				<p>
+					很多人不能來到緬甸只能透過圖片來看翡翠，但是有些商家總是把顏色調得美美的發給客戶，我們可不這樣，必須在鏡頭下直播，才能給大看到最真實的樣子，大家才能買的踏實放心。
+				</p>
+				<p>
+					常常有些某寶或其他地方的人找我們工廠，要藉我們家的產品和工廠拍圖，這些行為不誠信，都被我拒絕了。
+				</p>
 				<img src="images/yi/3.jpg" alt="" />
 
 				<div className="flex justify-center w-full">
