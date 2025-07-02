@@ -94,6 +94,18 @@ export function Home() {
 					這行水很深，有人花十萬買到假貨，也有人幾千就能撿到寶。這篇文章，我不賣課、不賣夢，只想讓你了解這門看似神秘又高單價的行業背後，其實有跡可循。
 				</p>
 				<p>翡翠不是暴利，只是你沒找到對的人</p>
+				<div className="flex justify-center w-full">
+					<div className="flex flex-col lg:flex-row items-start lg:w-[680px] gap-3">
+						<div>
+							<p>ID:雨嫣 2368</p>
+							<img src="images/8.webp" alt="" />
+						</div>
+						<div>
+							<p>ID:淑婷 wzss198</p>
+							<img src="images/9.webp" alt="" />
+						</div>
+					</div>
+				</div>
 				<img src="images/1.webp" alt="" />
 				<img src="images/2.webp" alt="" className="w-full h-auto" />
 
